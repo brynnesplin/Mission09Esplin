@@ -31,9 +31,9 @@ function TeamCard({
   return(
     <>
     <div className="card">
-      <h4>{school}</h4>
-      <p>Mascot: {name}</p>
-      <p>Location: {city}, {state}</p>
+      <p className="card-title">{school}</p>
+      <p className="class-content">Mascot: {name}</p>
+      <p className="class-content">Location: {city}, {state}</p>
     </div>
     </>
   );
